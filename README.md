@@ -21,7 +21,7 @@ Run command below to run experiments on the homogeneous FL setting :
 ```
 # CIFAR-10
 python main.py \
-  --algorithm FedLA \  # FedMD, FedMD-LDP, FedMD-NFDP, FedMD-DPSGD
+  --algorithm FedLA \  # FedMD, FedMD-LDP, FedMD-NFDP, FedMD-DPSGD, FedLA
   --dataset cifar10 \
   --data_dir ./data \
   --partition dirichlet \
@@ -43,7 +43,7 @@ python main.py \
   
 # CIFAR-100
 python main.py \
-  --algorithm FedLA \  # FedMD, FedMD-LDP, FedMD-NFDP, FedMD-DPSGD
+  --algorithm FedLA \  # FedMD, FedMD-LDP, FedMD-NFDP, FedMD-DPSGD, FedLA
   --dataset cifar100 \
   --data_dir ./data \
   --partition dirichlet \
@@ -69,7 +69,7 @@ Run command below to run experiments on the heterogeneous FL setting :
 ```
 # CIFAR-10
 python main.py \
-  --algorithm FedLA \  # FedMD, FedMD-LDP, FedMD-NFDP, FedMD-DPSGD
+  --algorithm FedLA \  # FedMD, FedMD-LDP, FedMD-NFDP, FedMD-DPSGD, FedLA
   --dataset cifar10 \
   --data_dir ./data \
   --partition dirichlet \
@@ -91,7 +91,7 @@ python main.py \
   
 # CIFAR-100
 python main.py \
-  --algorithm FedLA \  # FedMD, FedMD-LDP, FedMD-NFDP, FedMD-DPSGD
+  --algorithm FedLA \  # FedMD, FedMD-LDP, FedMD-NFDP, FedMD-DPSGD, FedLA
   --dataset cifar100 \
   --data_dir ./data \
   --partition dirichlet \
